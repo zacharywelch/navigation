@@ -754,7 +754,7 @@
       $(target).toggleClass('active')
     });
     $('[data-dismiss="offcanvas"]').click(function(e) {
-      $(this).parent().toggleClass('active')
+      $(this).closest('.offcanvas-right').toggleClass('active')
     });
   });
 }).call(this);

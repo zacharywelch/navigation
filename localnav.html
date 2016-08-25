@@ -33,7 +33,7 @@
     </div>
 
     <div class='keyline-bottom pad2y'>
-      <a href='flashes.html' class='block pad1y pad2x strong quiet'>
+      <a href='#fakelink' class='block pad1y pad2x strong quiet'>
         Home
       </a>
       <a href='#fakelink' class='block pad1y pad2x strong quiet'>
@@ -84,62 +84,109 @@
       <div class='pad2y pad3x keyline-bottom row4'>
         <h1 class='inline'>A Big Title</h1>
         <div class='pull-right strong small'>
-          <a href='#fakelink' class='tab-link keyline-bottom inline pad1 quiet active'>Item Library</a><a href='blankslate.html' class='tab-link keyline-bottom inline pad1 quiet'>Transfers</a><a href='splash.html' class='tab-link keyline-bottom inline pad1 quiet'>Inventory</a><a href='#fakelink' class='tab-link keyline-bottom inline pad1 quiet'>Collections</a><a href='localnav.html' class='tab-link keyline-bottom inline pad1 quiet'>Settings</a>
+          <a href='index.html' class='tab-link keyline-bottom inline pad1 quiet'>Item Library</a><a href='blankslate.html' class='tab-link keyline-bottom inline pad1 quiet'>Transfers</a><a href='splash.html' class='tab-link keyline-bottom inline pad1 quiet'>Inventory</a><a href='#fakelink' class='tab-link keyline-bottom inline pad1 quiet'>Collections</a><a href='#fakelink' class='tab-link keyline-bottom inline pad1 quiet active'>Settings</a>
         </div>
       </div>
 
-      <div class='pad2y pad3x'>
+      <div class='pad2y pad3x clearfix'>                
+        <aside class='col-sm-3 sidebar' style='padding-right: 20px;'>
+          <nav>
+            <a href='#fakelink' class='block pad1y pad2x active fill-blue dark round'>Profile</a>
+            <a href='#fakelink' class='block pad1y pad2x round quiet'>Account Settings</a>
+            <a href='#fakelink' class='block pad1y pad2x round quiet'>Billing</a>
+            <a href='#fakelink' class='block pad1y pad2x round quiet'>Notifications</a>          
+            <a href='#fakelink' class='block pad1y pad2x round quiet'>Users</a>
+            <a href='#fakelink' class='block pad1y pad2x round quiet'>Roles</a>
+            <a href='#fakelink' class='block pad1y pad2x round quiet'>Templates</a>
+          </nav>
+        </aside>
 
-        <section class='space-bottom clearfix'>
-          <a href='#fakelink' class='btn btn-primary btn-wide pull-right' data-toggle='offcanvas' data-target='#detail-offset'>
-            Create Item
-          </a>
-          <a href='#fakelink' class='btn btn-primary btn-wide pull-right hidden' data-toggle='modal' data-target='#detail-modal'>
-            Create Item
-          </a>
-          <a href='new.html' class='btn btn-primary btn-wide pull-right hidden'>
-            Create Item
-          </a>
-        </section>
+        <div class='col-sm-9 pad1l'>
+          
+          <section class='keyline-all fill-darken0 space-bottom round'>
+            <header class='pad1y pad2x keyline-bottom'>
+              <h3>Basic Information</h3>
+            </header>
+            <div class='fill-white round-bottom'>
+              <div class='pad2 contain keyline-bottom'>
+                <form class='clearfix'>
+                  <fieldset>
+                    <label for='profile-img'>Profile picture</label>
+                    <img src='img/regularshow.jpg' width='70' class='round pull-left' data-pin-nopin='true'>
+                    <div style='padding-left: 90px;'>
+                      <a href='#fakelink' class='btn btn-default'>Upload new picture</a>
+                      <p class='small quiet pad0y'>
+                        You can also drag and drop a picture from your computer.
+                      </p>
+                    </div>
+                  </fieldset>
+                  <fieldset>
+                    <label for='name'>Name</label>
+                    <input id='name' type='text' class='stretch' value='Robert Half'>
+                  </fieldset>
+                  <fieldset>
+                    <label for='company'>Company</label>
+                    <input id='company' type='text' class='stretch' value='Robert Half'>
+                  </fieldset>                      
+                </form>
+              </div>
+              <div class='pad2 contain text-right'>
+                <a href='#fakelink' class='btn btn-primary'>Save changes</a>
+              </div>
+            </div>
+          </section>
 
-        <table class='prose table-select'>
-          <thead>
-            <tr>
-              <th width='80'></th>
-              <th>Name</th>
-              <th>Email</th>
-              <th>Role</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><img src='img/batman.jpg' class='img-rounded' width='40'></td>
-              <td>Batman</td>
-              <td>dark.knight@gmail.com</td>
-              <td>Sr Infrastructure Engineer</td>
-            </tr>
-            <tr>
-              <td><img src='img/gumball.jpg' class='img-rounded' width='40'></td>
-              <td>Gumball</td>
-              <td>gumball@gmail.com</td>
-              <td>Software Engineer II</td>
-            </tr>
-            <tr>
-              <td><img src='img/hero.jpg' class='img-rounded' width='40'></td>
-              <td>Lin Chung</td>
-              <td>hero108@yahoo.com</td>
-              <td>Application Administrator I</td>
-            </tr>
-            <tr>
-              <td><img src='img/adventuretime.jpg' class='img-rounded' width='40'></td>
-              <td>Finn</td>
-              <td>adventuretime@gmail.com</td>
-              <td>Global Temp</td>
-            </tr>
-          </tbody>
-        </table>
-
+          <section class='keyline-all fill-darken0 space-bottom round'>
+            <header class='pad1y pad2x keyline-bottom'>
+              <h3>Contact Information</h3>
+            </header>
+            <div class='fill-white round-bottom'>
+              <div class='pad2x contain'>
+                <section class='pad2y keyline-bottom'>
+                  <h3 class='small quiet space-bottom0'>Primary Contact</h3>
+                  <h4>Kerem Seur</h4>
+                  <ul class='small quiet space-bottom'>
+                    <li class='inline pad1r'>
+                      <i class='icon icon-envelope pad0r'></i>nmangina@gmail.com
+                    </li>
+                    <li class='inline pad1r'>
+                      <i class='icon icon-phone pad0r'></i>555-555-5555
+                    </li>
+                    <li class='inline'>
+                      <i class='icon icon-map-marker pad0r'></i>123 Sesame St, Atlanta GA 30340
+                    </li>
+                  </ul>
+                  <a href='#fakelink' class='btn btn-default' data-toggle='modal' data-target='#modal'>Edit Contact</a>
+                </section>
+                <section class='pad2y keyline-bottom'>
+                  <h3 class='small quiet space-bottom0'>Billing Contact</h3>
+                  <h4>Dan Cederholm</h4>
+                  <ul class='small quiet space-bottom'>
+                    <li class='inline pad1r'>
+                      <i class='icon icon-envelope pad0r'></i>nmangina@gmail.com
+                    </li>
+                    <li class='inline pad1r'>
+                      <i class='icon icon-phone pad0r'></i>555-555-5555
+                    </li>
+                    <li class='inline'>
+                      <i class='icon icon-map-marker pad0r'></i>123 Sesame St, Atlanta GA 30340
+                    </li>
+                  </ul>
+                  <a href='#fakelink' class='btn btn-default'>Edit Contact</a>
+                </section>
+                <section class='pad2y'>
+                  <h3 class='small quiet space-bottom0'>Accounts Payable Contact</h3>
+                  <p>
+                    Setup an accounts payable contact if there's a separate person to call about the status of a payment or to resolve a dispute on an invoice.
+                  </p>
+                  <a href='#fakelink' class='btn btn-default'>Add Contact</a>
+                </section>
+              </div>
+            </div>
+          </section>
+        </div>
       </div>
+
     </div>
   </div><!-- ./content -->
 

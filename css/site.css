@@ -9,6 +9,44 @@ body:not(.animate) .animate {
           transition:none;
 }
 
+.fix-left { 
+  position: fixed;
+}
+
+.fix-left {
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.navbar { height: 80px; }
+.dark .close { color: #fff; }
+h1 { letter-spacing: 0; } /* update kabu */
+.fill-gray .rounded-toggle input[type=radio]:checked + label {
+  background: #bfbfbf;
+  color: #fff;
+}
+
+.footer { 
+  background-image: url(/img/background.png);
+}
+
+.btn-support {
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  box-shadow: 0 1px 6px rgba(0,0,0,.06),0 2px 32px rgba(0,0,0,.16)!important;
+  width: 60px;
+  height: 60px;
+  padding: 20px;
+}
+
+.btn-support .icon { 
+  font-size: 20px;
+  top: 0px;
+}
+
 body.bleed { padding-top: 60px; }
 
 .logo { 
@@ -30,10 +68,9 @@ input.flat,
 
 .navbar .primary > *:first-child { margin-left: 0; }
 
-#site-nav { 
+#site-nav {
   position: fixed;
   z-index: 999; 
-  width: 280px;
   width: 234px;
 }
 
