@@ -8,20 +8,14 @@
   <link href='fonts/opensans_bold/stylesheet.css' rel='stylesheet' />
   <link href='kabu/stylesheets/kabu.css' rel='stylesheet' />
   <link href='css/site-left.css' rel='stylesheet' />
+  <script src="js/pace.min.js"></script>
+  <link href="css/pace-theme-minimal.css?1" rel="stylesheet" />
 </head>
 <body>
 
   <div class='sidenav animate fix-left fill-navy dark'>
-    <div class='pad2 fill-navy'>
-      <div class='media'>
-        <div class='media-left pad1r'>
-          <img src='img/pokemon.jpg' class='img-rounded' width='40'>
-        </div>
-        <div class='media-body'>
-          <h4 class='small quiet'>signed in as</h4>
-          <h4>zachary.welch</h4>
-        </div>
-      </div>
+    <div class='pad2'>
+      <h3 class='fancy'>axiom</h3>
       <div class='pin-topright'>
         <a href='#fakelink' class='contain pad2 inline' style='color: #fff;'>
           <i class='icon icon-bell icon-md'></i>
@@ -31,15 +25,14 @@
         </a>
       </div>
     </div>
-
     <div class='keyline-bottom pad2y'>
-      <a href='#fakelink' class='block pad1y pad2x strong quiet'>
+      <a href='flashes.html' class='block pad1y pad2x strong quiet'>
         Home
       </a>
       <a href='#fakelink' class='block pad1y pad2x strong quiet'>
         Sales
       </a>
-      <a href='#fakelink' class='block pad1y pad2x strong quiet active fill-lighten0'>
+      <a href='index.html' class='block pad1y pad2x strong quiet active fill-lighten0'>
         Items
       </a>
       <a href='#fakelink' class='block pad1y pad2x strong quiet'>
@@ -50,7 +43,7 @@
       </a>
     </div>
 
-    <div class='keyline-bottom pad2y'>
+    <div class='pad2y'>
       <a href='#fakelink' class='block pad1y pad2x strong quiet'>
         Invoices
       </a>
@@ -66,17 +59,29 @@
       </a>
     </div>
 
-    <div class='pad2y'>
-      <a href='#fakelink' class='block pad1y pad2x strong quiet'>
-        Account &amp; Settings
-      </a>
-      <a href='#fakelink' class='block pad1y pad2x strong quiet'>
-        Support Center
-      </a>
+    <div class='dropdown dropdown-profile pin-bottom keyline-top no-select'>
+      <div class='pad2' data-toggle='dropdown'>
+        <div class='media'>
+          <div class='media-left pad1r'>
+            <img src='img/pokemon.jpg' class='img-rounded' width='40'>
+          </div>
+          <div class='media-body'>
+            <h4 class='small quiet'>signed in as</h4>
+            <h4>zachary.welch</h4>
+          </div>
+        </div>        
+      </div>
+      <ul class='dropdown-menu' role='menu' aria-labelledby='dLabel'>
+        <li><a href="#fakelink">Your profile</a></li>
+        <li><a href="#fakelink">Settings</a></li>
+        <li class='divider'></li>
+        <li><a href="#fakelink">Impersonate user</a></li>
+        <li class='divider'></li>
+        <li><a href="#fakelink">Help &amp; feedback</a></li>
+        <li><a href="#fakelink">Sign out</a></li>
+      </ul>
     </div>
-
   </div>
-
 
   <div class='sidenav-offset clearfix' role='main'>
     <div class='contain clearfix'>
